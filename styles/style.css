@@ -74,12 +74,33 @@ nav a:hover {
   margin-top: 10px;
 }
 
-footer {
+body footer {
   text-align: center;
   background: url(../assets/bg.jpg);
-  padding: 80px;
+  padding: 30px;
 }
 
 .copyright {
   color: white;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+main form {
+  margin: 40px 0;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
 }
